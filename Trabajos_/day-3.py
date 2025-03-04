@@ -35,7 +35,18 @@ print("El resultado es:", perimetro)
 print("Calcular la longitud y ancho de un ractangulo")
 longitud = int(input("Introduce la longitud del rectangulo: "))
 ancho = int(input("Introduce el ancho del rectangulo: "))
-area = (longitud * ancho)
-perimetro = (2*(longitud * ancho))
+area = (longitud*ancho)
+perimetro = (2*(longitud*ancho))
 print("El resultado es:", area)
 print("El resultado es:", perimetro)
+
+#Ejercicio 7, Calcular el radio de un circulo.
+print("Calcular el radio de un circulo")
+radio = float(input("Introduce el radio de un circulo: "))
+pi = 3.14
+area = (pi*radio*radio)
+circunferencia = (2*pi*radio)
+print("El resultado es:", area)
+print("El resultado es:", circunferencia)
+
+#Ejercicio 8, 
