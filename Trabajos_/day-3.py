@@ -20,8 +20,5 @@ print("tu numero complejo es: ", numerocomplejo)
 print("Calcular el area de un traingulo")
 base = int(input("Intrdocuce la base del triangulo: "))
 altura = int(input("Intrdocuce la altura del triangulo: "))
-
 area = ( 0.5 * base * altura )
-
 print("El resultado es:", area )
-
