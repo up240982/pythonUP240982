@@ -23,10 +23,19 @@ altura = int(input("Intrdocuce la altura del triangulo: "))
 area = ( 0.5 * base * altura )
 print("El resultado es:", area )
 
-#Ejercicio 5, Cacular el perimetro de un triangulo.
+#Ejercicio 5, Calcular el perimetro de un triangulo.
 print("Calcular el perimetro de un triangulo")
 ladoA = int(input("Introduce el lado a de un triangulo: "))
 ladoB = int(input("Introduce el lado b de un triangulo: "))
 ladoC = int(input("Introduce el lado c de un triangulo: "))
 perimetro = (ladoA + ladoB + ladoC)
+print("El resultado es:", perimetro)
+
+#Ejercicio 6, Calcular la longitud y ancho de un rectangulo.
+print("Calcular la longitud y ancho de un ractangulo")
+longitud = int(input("Introduce la longitud del rectangulo: "))
+ancho = int(input("Introduce el ancho del rectangulo: "))
+area = (longitud * ancho)
+perimetro = (2*(longitud * ancho))
+print("El resultado es:", area)
 print("El resultado es:", perimetro)
