@@ -11,76 +11,75 @@ estatura = 1.78
 print("tu estatura es: ", estatura)
 #Esta variable es de tipo flotante porque contiene decimales.
 
-#Ejercicio 3, Declara una variable con un numero complejo.
-numerocomplejo = 7j 
-print("tu numero complejo es: ", numerocomplejo)
-#Esta variable es un numero complejo por la letra j.
+#Ejercicio 3, Declara una variable con un número complejo.
+numero_complejo = 7j 
+print("tu número complejo es: ", numero_complejo)
+#Esta variable es un número complejo por la letra j.
 
-# Ejercicio 4, Calcular el area de un traingulo.
-print("Calcular el area de un traingulo")
-base = int(input("Intrdocuce la base del triangulo: "))
-altura = int(input("Intrdocuce la altura del triangulo: "))
-area = ( 0.5 * base * altura)
-print("El resultado es:", area)
+# Ejercicio 4, Calcular el área de un triángulo.
+print("Calcular el área de un triángulo")
+base = int(input("Intrdocuce la base del triángulo: "))
+altura = int(input("Intrdocuce la altura del triángulo: "))
+área = ( 0.5 * base * altura)
+print("El resultado es:", área)
 #En este ejercicio uno da las medidas de la base y altura.
 
-# Ejercicio 5, Calcular el perimetro de un triangulo.
-print("Calcular el perimetro de un triangulo")
-ladoA = int(input("Introduce el lado a de un triangulo: "))
-ladoB = int(input("Introduce el lado b de un triangulo: "))
-ladoC = int(input("Introduce el lado c de un triangulo: "))
-perimetro = (ladoA + ladoB + ladoC)
-print("El resultado es:", perimetro)
-#En este ejercicio uno da las medidas de los lados de un triangulo.
+# Ejercicio 5, Calcular el perímetro de un triangulo.
+print("Calcular el perímetro de un triangulo")
+ladoA = int(input("Introduce el lado a de un triángulo: "))
+ladoB = int(input("Introduce el lado b de un triángulo: "))
+ladoC = int(input("Introduce el lado c de un triángulo: "))
+perímetro = (ladoA + ladoB + ladoC)
+print("El resultado es:", perímetro)
+#En este ejercicio uno da las medidas de los lados de un triángulo.
 
-# Ejercicio 6, Calcular la longitud y ancho de un rectangulo.
-print("Calcular la longitud y ancho de un ractangulo")
-longitud = int(input("Introduce la longitud del rectangulo: "))
-ancho = int(input("Introduce el ancho del rectangulo: "))
-area = (longitud * ancho)
+# Ejercicio 6, Calcular la longitud y ancho de un rectángulo.
+print("Calcular la longitud y ancho de un ractángulo")
+longitud = int(input("Introduce la longitud del rectángulo: "))
+ancho = int(input("Introduce el ancho del rectángulo: "))
+área = (longitud * ancho)
 perimetro = ( 2 * (longitud * ancho))
-print("El resultado es:", area)
-print("El resultado es:", perimetro)
+print("El resultado es:", área)
+print("El resultado es:", perímetro)
 #En este ejercicio uno da las medidas de la longitud y ancho.
 
-# Ejercicio 7, Calcular el radio de un circulo.
-print("Calcular el radio de un circulo")
-radio = float(input("Introduce el radio de un circulo: "))
-pi = 3.14
-area = (pi*radio*radio)
-circunferencia = (2*pi*radio)
-print("El resultado es:", area)
+# Ejercicio 7, Calcular el radio de un círculo.
+print("Calcular el radio de un círculo")
+radio = float(input("Introduce el radio de un círculo: "))
+pi = (3.14)
+área = (pi * radio * radio)
+circunferencia = (2 * pi * radio)
+print("El resultado es:", área)
 print("El resultado es:", circunferencia)
 
 # Ejercicio 8, Calcular la pendiente.
-print("8- Cálculos de pendiente y = 2x - 2")
-# Ecuación de la línea: y = 2x - 2
-m = 2  # Pendiente
-y_intercept = -2  # Intersección con el eje y
-x_intercept = -y_intercept / m  # Intersección con el eje x
-
+print("Cálcular la pendiente de y = 2x - 2")
+##Ecuación de la línea: y = 2x - 2
+m = (2) 
+##Pendiente
+y_intercept = -2  
+##Intersección con el eje y
+x_intercept = -y_intercept / m
+##Intersección con el eje x
 print("La pendiente (m) es:", m)
 print("La intersección con el eje y es:", y_intercept)
 print("La intersección con el eje x es:", x_intercept)
 
-# Ejercicio 9, Cálculo de la pendiente y distancia euclidiana entre dos puntos
-print("9- Cálculo de la pendiente y distancia euclidiana entre (2, 2) y (6, 10)")
-x1 = 2
-y1 = 2
-x2 = 6
-y2 = 10
-
-# Pendiente
-pendiente = (y2 - y1) / (x2 - x1)
+# Ejercicio 9, Calcular la pendiente y distancia euclidiana entre dos puntos.
+print("9- Calcular la pendiente y distancia euclidiana entre (2, 2) y (6, 10)")
+x1 = (2)
+y1 = (2)
+x2 = (6)
+y2 = (10)
+##Pendiente
+pendiente = ((y2 - y1)/(x2 - x1))
 print("La pendiente entre los puntos es:", pendiente)
-
-# Distancia euclidiana
-distancia = ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+##Distancia euclidiana
+distancia = (((x2 - x1)**2 + (y2 - y1)**2)**0.5)
 print("La distancia euclidiana entre los puntos es:", distancia)
 
-# Ejercicio 10, Comparación de pendientes.
-print("10- Comparación de pendientes")
-
+# Ejercicio 10, Hacer una comparación de pendientes.
+print("Hacer una comparación de pendientes")
 comparación = m>=pendiente
 print("La pendiente de la ecuación y = 2x - 2 es mayor o igual a la pendiente entre los puntos (2, 2) y (6, 10):", comparación)
 comparación = m<=pendiente
@@ -94,18 +93,18 @@ print("La pendiente de la ecuación y = 2x - 2 es mayor a la pendiente entre los
 comparación = m<pendiente
 print("La pendiente de la ecuación y = 2x - 2 es menor a la pendiente entre los puntos (2, 2) y (6, 10):", comparación)
 
-# Ejercicio 11, Cálcular de y = x^2 + 6x + 9 para diferentes valores de x.
-print("Cálculo de y = x^2 + 6x + 9 para diferentes valores de x")
+# Ejercicio 11, Calcular de y = x^2 + 6x + 9 para diferentes valores de x.
+print("Calcular de y = x^2 + 6x + 9 para diferentes valores de x")
 def calcular_y(x):
     return x**2 + 6*x + 9
 
-# Probar diferentes valores de x
+##Probar diferentes valores de x
 valores_x = [-5, -4, -3, -2, -1, 0, 1, 2, 3]
 for x in valores_x:
     y = calcular_y(x)
     print(f"Para x = {x}, y = {y}")
 
-# Solicitar un valor de x al usuario
+##Solicitar un valor de x al usuario
 x = float(input("Ingresa el valor de x: "))
 y = calcular_y(x)
 print("El valor de y es:", y)
@@ -148,8 +147,8 @@ print(type(len_python))
 # Ejericio 17, Checar si un número es par.
 print("Checar si un número es par")
 numero = int(input("Ingresa un número: "))
-espar = (numero % 2 == 0)
-print(f"El número {numero} es par: {espar}")
+es_par = (numero % 2 == 0)
+print(f"El número {numero} es par: {es_par}")
 
 # Ejercicio 18, Check if floor division of 7 by 3 is equal to int converted value of 2.7.
 print("Check if floor division of 7 by 3 is equal to int converted value of 2.7")
@@ -182,8 +181,8 @@ pago = ( horas * tarifa)
 print(f"El pago es: ", pago)
 
 # Ejercio 22, Escribe un script que le pida al usuario que ingrese el número de años.
-#Calcular el número de segundos que una persona puede vivir. 
-print("22- Calcular el número de segundos que una persona puede vivir")
+# Calcular el número de segundos que una persona puede vivir. 
+print("Calcular el número de segundos que una persona puede vivir")
 años = int(input("Ingresa el número de años: "))
 segundos_por_año = (365 * 24 * 60 * 60)
 segundos_vividos = (años * segundos_por_año)
