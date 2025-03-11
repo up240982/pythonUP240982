@@ -110,7 +110,7 @@ y = calcular_y(x)
 print("El valor de y es:", y)
 
 # Ejercicio 12, Largo de "python" y "dragon" y falsa comparación.
-print("12- Largo de 'python' y 'dragon' y falsa comparación") 
+print("Largo de 'python' y 'dragon' y falsa comparación") 
 len_python = len('python')
 len_dragon = len('dragon')
 falsy_comparison = len_python == len_dragon
@@ -119,23 +119,23 @@ print(f"Length of 'dragon': {len_dragon}")
 print(f"Falsy comparison (length of 'python' == length of 'dragon'): {falsy_comparison}")
 
 # Ejercicio 13, Checar si "on" está en "python" y "dragon".
-print("13- Checar si 'on' está en 'python' y 'dragon'")
+print("Checar si 'on' está en 'python' y 'dragon'")
 on_in_both = 'on' in 'python' and 'on' in 'dragon'
 print(f"'on' in both 'python' and 'dragon': {on_in_both}")
 
 # Ejercicio 14, Checar si "jargon" está en la frase.
-print("14- Checar si 'jargon' está en la frase")
+print("Checar si 'jargon' está en la frase")
 frase = "I hope this course is not full of jargon"
 jargon_in_frase = 'jargon' in frase
 print(f"'jargon' in the frase: {jargon_in_frase}")
 
 # Ejercicio 15, No hay "on" en "python" y "dragon".
-print("15- No hay 'on' en 'python' y 'dragon'")
+print("No hay 'on' en 'python' y 'dragon'")
 no_on_in_both = 'on' not in 'python' and 'on' not in 'dragon'
 print(f"'on' not in both 'python' and 'dragon': {no_on_in_both}")
 
 # Ejercicio 16, Convertir la longitud de "python" a float y luego a string.
-print("16- Convertir la longitud de 'python' a float y luego a string")
+print("Convertir la longitud de 'python' a float y luego a string")
 len_python = len('python')
 len_python = float(len_python)
 print(type(len_python))
@@ -160,7 +160,7 @@ print(f"Int converted value of 2.7: {int_conversion}")
 print(f"Equal: ", equal)
 
 # Ejercicio 19, Checar si el tipi de "10" es igual al tipo de 10.
-print("19- Checar si el tipo de '10' es igual al tipo de 10")
+print("Checar si el tipo de '10' es igual al tipo de 10")
 type_comparison = type('10') == type(10)
 print(f"Type of '10' is equal to type of 10: {type_comparison}")
 
@@ -174,7 +174,7 @@ comparison = int_value == 10
 print(f"int('9.8') is equal to 10: {comparison}")
 
 # Ejercicio 21, Calcular el pago basado en horas y tarifa por hora.
-print("21- Calcular pago basado en horas y tarifa por hora")
+print("Calcular pago basado en horas y tarifa por hora")
 horas = float(input("Introduce el número de horas trabajadas: "))
 tarifa = float(input("Introduce la tarifa por hora: "))
 pago = ( horas * tarifa)
