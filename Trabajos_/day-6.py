@@ -1,5 +1,3 @@
-##DIA 6
-
 #Crear una tupla vacía
 TuplaVacia = ()
 
@@ -68,4 +66,4 @@ print("Estonia" in nordic_countries)
 ##Comprueba si 'Islandia' es un país nórdico
 print("Islandia" in nordic_countries)
 
-##FIN
+#FIN
