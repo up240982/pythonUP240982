@@ -19,10 +19,10 @@ MixedDataTypes = ["Christian", "18 Años", "1.72 m", "Soltero", "Laureles del su
 #Declare una variable de lista llamada it_companies y asigne los valores iniciales Facebook, Google, Microsoft, Apple, IBM, Oracle y Amazon.
 ItCompanies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
 
-#Imprima la lista usando print()
+#Imprima la lista usando print().
 print(ItCompanies)
 
-#Imprima el número de empresas en la lista
+#Imprima el número de empresas en la lista.
 print(len(ItCompanies))
 
 #Imprima la primera, la segunda y la última empresa.
