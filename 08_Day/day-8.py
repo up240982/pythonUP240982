@@ -25,7 +25,7 @@ student = {
            }   
 print(student)  
 
-#Ejercicio 4, Get the length of the student dictionary.
+# Ejercicio 4, Get the length of the student dictionary.
 print("Ejercicio 4:")
 student = {
     'first_name' : 'Brandon',
@@ -40,7 +40,7 @@ student = {
      }
 print("La longitud del diccionario student es:",len(student))
 
-#Ejercicio 5, Get the value of skills and check the data type, it should be a list.
+# Ejercicio 5, Get the value of skills and check the data type, it should be a list.
 print("Ejercicio 5:")
 skills = ['python']
 
@@ -69,7 +69,7 @@ student = {
 
 print("Las llaves del diccionario en lista son:", list(student.keys()))
 
-#Ejercicio 8, Get the dictionary values as a list.
+# Ejercicio 8, Get the dictionary values as a list.
 print("Ejercicio 8:")
 student = {
     'first_name' : 'Brandon',
@@ -85,7 +85,7 @@ student = {
   
 print("Los valores del diccionario en lista son:",list(student.values()))
 
-#Ejercicio 9, Change the dictionary to a list of tuples using items() method.
+# Ejercicio 9, Change the dictionary to a list of tuples using items() method.
 print("Ejercicio 9:")
 student = {
     'first_name' : 'Brandon',
@@ -103,7 +103,7 @@ student_items = student.items()
 student_list_of_tuples = list(student_items)
 print("El diccionario a lista de tuples es:", student_list_of_tuples)
 
-#Ejercicio 10, Delete one of the items in the dictionary.
+# Ejercicio 10, Delete one of the items in the dictionary.
 print("Ejercicio 10:")
 student = {
     'first_name' : 'Brandon',
@@ -119,7 +119,7 @@ student = {
 student.pop('address')
 print("Si eliminamos un item 'address' es:", student)
 
-#Ejercicio 11, Delete one of the dictionaries.
+# Ejercicio 11, Delete one of the dictionaries.
 print("Ejercicio 11:")
 student = {
     'first_name' : 'Brandon',

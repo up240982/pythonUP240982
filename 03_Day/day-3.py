@@ -11,7 +11,7 @@ estatura = 1.78
 print("tu estatura es: ", estatura)
 #Esta variable es de tipo flotante porque contiene decimales.
 
-#Ejercicio 3, Declara una variable con un número complejo.
+# Ejercicio 3, Declara una variable con un número complejo.
 numero_complejo = 7j 
 print("tu número complejo es: ", numero_complejo)
 #Esta variable es un número complejo por la letra j.
@@ -193,3 +193,5 @@ print("Escribir un Script para mostrar la siguiente tabla")
 print("a  a^0  a^1  a^2  a^3")
 for a in range(1, 6):
     print(f"{a}  {a**0}  {a**1}  {a**2}  {a**3}")
+
+#END OF DAY-3
