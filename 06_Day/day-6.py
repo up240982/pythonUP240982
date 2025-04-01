@@ -65,7 +65,7 @@ items_middle_lt = food_stuff_lt[(longitud - 1) // 2 : longitud // 2 + 1]
 print("Los items del miedo en el tuple son:", items_middle_tp)
 print("Los items del medio en el list son:", items_middle_lt)
 
-#Ejercicio 5, Slice out the first three items and the last three items from food_staff_lt list.
+# Ejercicio 5, Slice out the first three items and the last three items from food_staff_lt list.
 print("Ejercicio 5:")
 food_stuff_lt = ("Fresa", "Sandia", "Manzana", "Melon","Naranja","Lechuga", "Limon", "Cebolla", "Brocoli","Zanahoria", "Leche", "Huevos","Queso")
 longitud = len(food_stuff_lt)
@@ -74,14 +74,14 @@ ultimos_tres_items = food_stuff_lt[-3:]
 print("Los primeros tres items son:", primeros_tres_items)
 print("Los ultimos tres elementos son:", ultimos_tres_items)
 
-#Ejercicio 6, Delete the food_staff_tp tuple completely.
+# Ejercicio 6, Delete the food_staff_tp tuple completely.
 print("Ejercicio 6:")
 food_stuff_lt = ("Fresa", "Sandia", "Manzana", "Melon","Naranja","Lechuga", "Limon", "Cebolla", "Brocoli","Zanahoria", "Leche", "Huevos","Queso")
 del food_stuff_lt
 print("Se elimino food_stuff_lt, si se usa despues causara error")
 
 
-#Ejercicio 7, Check if an item exists in tuple:
+# Ejercicio 7, Check if an item exists in tuple:
 print("Ejercicio 7: ")
 food_stuff_tp = ("Fresa", "Sandia", "Manzana", "Melon","Naranja","Lechuga", "Limon", "Cebolla", "Brocoli","Zanahoria", "Leche", "Huevos","Queso")
 item_exitente = "Cereza"
@@ -90,7 +90,7 @@ if item_exitente in food_stuff_tp:
 else: 
     print("Cereza no esta")
     
-#Ejercicio 8, Check if 'Estonia' is a nordic country.
+# Ejercicio 8, Check if 'Estonia' is a nordic country.
 print("Ejercicio 8: ")
 nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
 if 'Estonia' in  nordic_countries:
@@ -99,7 +99,7 @@ else:
     print('No esta')
 print("'Estonia' no esta")
 
-#Ejercicio 9, Check if 'Iceland' is a nordic country.
+# Ejercicio 9, Check if 'Iceland' is a nordic country.
 print("Ejercicio 9:")
 nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
 if 'Iceland' in nordic_countries:
