@@ -6,7 +6,7 @@ print("Ejercicio 1:")
 mi_list = [] #No tiene nada mi lista.
 print(len(mi_list))
 
-# Ejercicio 2, Declare a list with more than 5 items
+# Ejercicio 2, Declare a list with more than 5 items.
 print("Ejercicio 2:")
 lista_de_frutas = ['Fresa', 'Guayaba','Kiwi', 'Mandarina', 'Sandia', 'Manzana','Pera', 'Mango']
 print("lista_de_frutas:", lista_de_frutas)
@@ -34,6 +34,7 @@ print("ultimo item:", ultimo_item)
 print("Ejercicio 5:")
 mixed_data_types_lista=['Sandra', '18', '50 kg', 'soltera', 'Av. Paseos de la Asuncion 5300 int. 89']
 print(mixed_data_types_lista)
+
 
 # Ejercicio 6, Declare a list variable named it_companies and assign initial values.
 # Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.
@@ -170,7 +171,6 @@ it_companies_lista = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle
 del it_companies_lista
 print("La lista ha sido destruida")
 
-
 # Ejercicio 26, Join the following lists.
 print("Ejercicio 26:")
 front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
@@ -178,7 +178,7 @@ back_end = ['Node','Express', 'MongoDB']
 full = front_end + back_end
 print(full)
 
-# Ejercicio 27, After joining the lists in question 26. Copy the joined list and assign it to a variable full_stack.
+# Ejercicio 27, After joining the lists in question 26. Copy the joined list and assign it to a variable full_stack, 
 #then insert Python and SQL after Redux.
 print("Ejercicio 27:")
 front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
@@ -194,7 +194,6 @@ print("Ejercicios de nivel 2:")
 # Ejercicio 1, The following is a list of 10 students ages.
 print("Ejercicio 28:")
 ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
- 
 
 # Ejercicio 2, Sort the list and find the min and max age.
 print("Ejercicio 2:")
@@ -263,5 +262,4 @@ Countries = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
 print("Los primeros tres countries son:", Countries[:3])
 print( "Los Scandic countries son:", Countries [3:])
 
-#END OF DAY-5
-print("revisado") #No se ejecuta, falta archivo countries
+#END OF DAY-5-CORREGIDO
