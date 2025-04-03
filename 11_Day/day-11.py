@@ -74,7 +74,7 @@ def calculate_slope(x1, y1, x2, y2):
 x1 = float(input("Escribe el primer valor de x1:"))
 y1 = float(input("Escribe el primer valor de y1:"))
 x2 = float(input("Escribe el valor de x2:"))
-y2= float(input("Escribe el valor de y2:"))
+y2 = float(input("Escribe el valor de y2:"))
    
 slope = calculate_slope(x1, y1, x2, y2)
 print("La pendiente de la ecuacion lineal es:", slope)
@@ -107,7 +107,7 @@ print("Ejercicio 8:")
 def print_list(lista):
    for elemento in lista:
       print(elemento)
-mi_lista = ["ateez", "bts",  "stray kids", "twice", "nct127"]
+mi_lista = ["Natanael Cano", "Gabito", "Tito Doble P", "Junior H", "Peso Pluma"]
 print_list(mi_lista)
 
 # Ejercicio 9, Declare a function named reverse_list. It takes an array as a parameter and it returns the reverse of the array (use loops).
@@ -118,7 +118,7 @@ def reverse_lista(lista):
       lista_invertida.insert(0, elemento)
    return lista_invertida
 
-mi_lista = ["ateez", "bts",  "stray kids", "twice", "nct127"]
+mi_lista = ["Natanael Cano", "Gabito", "Tito Doble P", "Junior H", "Peso Pluma"]
 lista_invertida = reverse_lista(mi_lista)
 print("La lista invertida es:", lista_invertida)
 
@@ -129,7 +129,7 @@ def capitalize_lista_items(lista):
    for elemento in lista:
       lista_capitalizada.append(elemento.capitalize())
    return lista_capitalizada
-mi_lista = ["ateez", "bts", "stray kids", "twice", "nct127"]
+mi_lista = ["Natanael Cano", "Gabito", "Tito Doble P", "Junior H", "Peso Pluma"]
 lista_capitalizada = capitalize_lista_items(mi_lista)
 print("La lista capitalizada es:", lista_capitalizada)
 
@@ -138,7 +138,7 @@ print("Ejercicio 11:")
 def add_item(lista, item):
    lista.append(item)
    return lista 
-mi_lista = [ "ateez","bts", "stray kids", "twice", "nct127"]
+mi_lista = [ "Natanael Cano", "Gabito", "Tito Doble P", "Junior H", "Peso Pluma"]
 item = input("Escribe el item que quieras agregar:")
 mi_lista = add_item(mi_lista, item)
 print("La lista con el item agregado es:", mi_lista)

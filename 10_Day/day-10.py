@@ -114,7 +114,7 @@ print("Ejercicios de Nivel 3:")
 # Ejercicio 1, Go to the data folder and use the countries.py file.
 #Loop through the countries and extract all the countries containing the word 'land'.
 print("Ejercicio 1:")
-import countries as p
+import countries_data as p
 paises = p.countries
 paises_con_land = []
 for pais in paises:
@@ -132,7 +132,7 @@ for i in range(len(frutas)-1, -1, -1):
 ## 3.1.What are the total number of languages in the data
 print("Ejercicio 3 y 3.1:")
 import countries_data as cd
-number_of_lenguaje = cd.paises
+number_of_lenguaje = cd.countries
 lenguajes = set()
 for pais in number_of_lenguaje:
     for idioma in pais['languages']:
