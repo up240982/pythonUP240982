@@ -264,3 +264,4 @@ print("Los primeros tres countries son:", Countries[:3])
 print( "Los Scandic countries son:", Countries [3:])
 
 #END OF DAY-5
+print("revisado") #No se ejecuta, falta archivo countries

@@ -195,3 +195,5 @@ for a in range(1, 6):
     print(f"{a}  {a**0}  {a**1}  {a**2}  {a**3}")
 
 #END OF DAY-3
+
+print("revisado")
