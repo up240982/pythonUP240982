@@ -1,4 +1,4 @@
-#Ejercicios de Nivel 1
+##Ejercicios de Nivel 1
 print("Ejercicios de Nivel 1:")
 
 # Ejercicio 1, Explain the difference between map, filter, and reduce.
@@ -223,16 +223,16 @@ print("El conteo de paises por letra inicial es:", country_count_by_letter)
 # Ejercicio 14, Declare a get_first_ten_countries function.
 #it returns a list of first ten countries from the countries.js list in the data folder.
 print("Ejercicio 14:")
-import countries as c 
-countries = c.countries
+import countries_data as c 
+countries = c.countries_data
 def get_first_ten_countries(lst):
      return lst[:10]
 print("Los primeros 10 paises son:", get_first_ten_countries(countries))
 
 # Ejercicio 15, Declare a get_last_ten_countries function that returns the last ten countries in the countries list.
 print("Ejercicio 15:")
-import countries as c 
-countries = c.countries
+import countries_data as c 
+countries = c.countries_data
 def get_last_ten_countries(lst):
      return lst[-10:]
 print("Los ultimos 10 paises son:", get_last_ten_countries(countries))
@@ -244,7 +244,7 @@ print("Ejercicios de Nivel 3:")
 #file and follow the tasks below:
 print("Ejercicio 1:")
 import countries_data as cd
-paises = cd.paises
+paises = cd.countries_data
 
 ## Ejercicio 3.1, Sort countries by name, by capital, by population.
 print("Ejercicio 3.1:")
