@@ -115,6 +115,6 @@ if 'skills' in person:
 if person['is_marred'] == True and 'Finland' in person['country']:
      print('Asabeneh Yetayeh vive en Finland, y es casado.')
 
-print("Terminados los ejercicios.")
-
+     print("Terminados los ejercicios.")
+     
 #END OF DAY-9
