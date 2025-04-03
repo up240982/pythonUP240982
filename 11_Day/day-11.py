@@ -149,7 +149,7 @@ def remove_item(mi_lista, item):
    if item in mi_lista:
       mi_lista.remove(item)
    return mi_lista
-mi_lista = ["ateez", "bts", "stray kids", "twice", "nct127"]
+mi_lista = ["Natanael Cano", "Gabito", "Tito Doble P", "Junior H", "Peso Pluma"]
 item = input("Escribe el item que quieras eliminar:")
 mi_lista = remove_item(mi_lista, item)
 print("La lista con el item eliminado es:", mi_lista)
