@@ -112,7 +112,7 @@ print("La suma de todos los números impares es:", suma_impares)
 print("Ejercicios de Nivel 3:")
 
 # Ejercicio 1, Go to the data folder and use the countries.py file.
-# Loop through the countries and extract all the countries containing the word 'land'.
+#Loop through the countries and extract all the countries containing the word 'land'.
 print("Ejercicio 1:")
 import countries as p
 paises = p.countries
