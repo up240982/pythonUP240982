@@ -47,3 +47,5 @@ print(f"La intersección es: {y_interc(0, 0, slope(2, 3, 4, 7))}")
 print(f"La intersección es: {y_interc(2, 3, slope(2, 3, 4, 7))}")
 
 #END OF DAY-13
+
+print("revisado")
